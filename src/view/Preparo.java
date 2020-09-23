@@ -8,7 +8,7 @@ public class Preparo {
 
 	public static void main(String[] args) {
 
-		int permissoes = 5;
+		int permissoes = 1;
 		Semaphore semaforo = new Semaphore(permissoes);
 		
 
