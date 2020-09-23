@@ -36,8 +36,8 @@ public class ThreadCozinha extends Thread {
 
 	public void cozinha() {
 
-		int tempoSopa = (int) (Math.random() * 501) + 800;
-		int tempoLazanha = (int) (Math.random() * 601) + 1200;
+		int tempoSopa = (int) (Math.random() * 301) + 500;
+		int tempoLazanha = (int) (Math.random() * 601) + 600;
 		percentual = 0;
 
 		if (idPratos % 2 != 0) {
